@@ -1,0 +1,62 @@
+﻿# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated outputs
+outputs/*
+
+# Local sample videos
+assets/sample_videos/*
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local Python packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local cache directories
+.cache/
+.ultralytics/
+wandb/
+runs/

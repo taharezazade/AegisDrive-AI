@@ -1,0 +1,46 @@
+{
+  "project": {
+    "name": "AegisDrive-AI",
+    "version": "0.1.0",
+    "language": "fa-en"
+  },
+  "video": {
+    "input_path": "assets/sample_videos/input.mp4",
+    "output_path": "outputs/processed_video.mp4",
+    "target_fps": 30,
+    "resize_width": 1280,
+    "resize_height": 720
+  },
+  "detection": {
+    "model": "yolo11n.pt",
+    "confidence_threshold": 0.35,
+    "iou_threshold": 0.45,
+    "device": "auto"
+  },
+  "tracking": {
+    "enabled": true,
+    "tracker": "bytetrack.yaml"
+  },
+  "lanes": {
+    "enabled": true,
+    "canny_low_threshold": 50,
+    "canny_high_threshold": 150
+  },
+  "distance": {
+    "enabled": false,
+    "method": "uncalibrated_monocular"
+  },
+  "collision_warning": {
+    "enabled": false,
+    "minimum_ttc_seconds": 2.0
+  },
+  "bird_eye_view": {
+    "enabled": false,
+    "width": 640,
+    "height": 480
+  },
+  "logging": {
+    "enabled": true,
+    "output_path": "outputs/events.csv"
+  }
+}
