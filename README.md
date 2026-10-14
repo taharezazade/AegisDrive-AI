@@ -99,10 +99,8 @@ An NVIDIA GPU with a compatible CUDA configuration can accelerate inference. CPU
 
 ### 1. Clone the repository
 
-Replace `<your-username>` with your GitHub username.
-
 ```bash
-git clone https://github.com/<your-username>/AegisDrive AI.git
+git clone https://github.com/taharezazade/AegisDrive AI.git
 cd AegisDrive AI
 ```
 
